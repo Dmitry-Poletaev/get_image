@@ -2,7 +2,6 @@
 include 'db_connect.php';
 include 'views.php';
 
-// $sql = 'SELECT * FROM images';
 $result = $pdo->query('SELECT * FROM images');
 
 
