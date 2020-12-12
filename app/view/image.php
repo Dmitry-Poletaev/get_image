@@ -28,6 +28,4 @@ if (isset($_POST['upload']) && isset($_FILES['image'])) {
     $pdo->prepare($sql)->execute([$path]);
     header("Location: index.php");
 
-} else {
-    var_dump($_FILES);
-}
+} 
